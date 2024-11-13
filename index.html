@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Beauty page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>MAYBELLINE</h1>
+        <p>NEW YORK</p>
+      </div>
+    </header>
+
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="/images/foto1.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="/images/foto2.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/foto3.jpg" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/foto4.jpg" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/foto5.jpg" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/foto6.jpg" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/foto7.jpg" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/foto8.webp" class="d-block w-100" alt="..." />
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/foto9.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/foto10.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/foto11.webp" class="d-block w-100" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="images/foto12.webp" class="d-block w-100" alt="..." />
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="selectart">
+        <div class="product">
+          <label for="brandselect">Choose a Brand</label>
+          <select name="brand" id="brand-select" class="brandselect">
+            <option class="valuebrand" value="maybellyne">Maybelline</option>
+            <option class="valuebrand" value="almay">Almay</option>
+            <option class="valuebrand" value="benefit">Benefit</option>
+            <option class="valuebrand" value="rejuva minerals">
+              Rejuva minerals
+            </option>
+            <option class="valuebrand" value="nyx">Nyx</option>
+            <option class="valuebrand" value="clinique">Clinique</option>
+            <option class="valuebrand" value="dior">Dior</option>
+            <option class="valuebrand" value="smashbox">Smashbox</option>
+            <option class="valuebrand" value="marcelle">Marcelle</option>
+            <option class="valuebrand" value="stila">Stila</option>
+            <option class="valuebrand" value="covergirl">Covergirl</option>
+          </select>
+          <br />
+
+          <label for="categoryselect">Choose a Category</label>
+          <select name="product" id="articles-select" class="categoryselect">
+            <option class="valueproduct" value="bronzer">Bronzer</option>
+            <option class="valueproduct" value="blush">Blush</option>
+            <option class="valueproduct" value="foundation">Foundation</option>
+            <option class="valueproduct" value="eyeshadow">Eyeshadow</option>
+            <option class="valueproduct" value="eyeliner">Eyeliner</option>
+            <option class="valueproduct" value="Product Typese">
+              Lipliner
+            </option>
+            <option class="valueproduct" value="lipstick">Lipstick</option>
+            <option class="valueproduct" value="mascara">Mascara</option>
+            <option class="valueproduct" value="nail_polish">
+              Nail polish
+            </option>
+          </select>
+        </div>
+
+        <div class="inputprice">
+          <label for="price">Select price</label>
+          <div class="price-select">
+            <input
+              type="range"
+              id="price"
+              name="price"
+              class="amount"
+              min="0"
+              max="50"
+              value="50"
+            />
+            <p class="result"></p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="beautyart"></div>
+      </div>
+    </div>
+
+    <footer>
+      <h3>Maybelline New York</h3>
+    </footer>
+    <script src="/js/script.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="/js/slider.js"></script>
+  </body>
+</html>
